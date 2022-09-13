@@ -4,4 +4,6 @@
  * Praise The Lord
  */
 package com.jap.ticketing.Service;
+public class ReadTicketData {
+}
 
