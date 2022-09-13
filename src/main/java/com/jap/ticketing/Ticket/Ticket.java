@@ -18,7 +18,7 @@ public class Ticket {
     int ticketAmount;
     double travelledKm;
 
-    public Ticket() {
+    public Ticket(String ticketDate, String scheduleNo, String routeNo, int ticketFromStopId, int ticketFromStopSequenceNo, int ticketTillStopSequenceNo, int ticketTillStopId, int ticketAmount, double travelledKm) {
     }
 
     public Ticket(String scheduleNo, String routeNo, int ticketFromStopId, int ticketFromStopSequenceNo, int ticketTillStopId, int ticketTillStopSequenceNo, String ticketDate, int ticketAmount, double travellingKm) {
